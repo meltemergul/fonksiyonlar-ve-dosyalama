@@ -1,6 +1,4 @@
-/* Gelistirici:Meltem jülide ergül
- * Ögrenci No:B211200303
- * Odev No:2
+/* Gelistirici:Meltem jÃ¼lide ergÃ¼l
  * Odev Aciklama:Matris Olusturma,matris islemleri ve sifreleme */
  
 #include <iostream>
@@ -36,7 +34,7 @@ do
 	}
 	cout << endl;
 	
-	// Girilen matrisin ekranda gösterilmesi
+	// Girilen matrisin ekranda gÃ¶sterilmesi
 	cout << "A Matrisi:" << endl;
 	for(int i=0; i<satir; i++)
 	{
@@ -66,9 +64,9 @@ do
 		cout<<endl;
 	}
  //islemler
-   cout<<"\nISLEMLER:1-Toplama 2-Çarpma: ";
+   cout<<"\nISLEMLER:1-Toplama 2-Ã‡arpma: ";
    cin>>islem;
-   cout<<"SONUÇ MATRISI:"<<endl;
+   cout<<"SONUÃ‡ MATRISI:"<<endl;
    if(islem==1)
    {
    //toplama
